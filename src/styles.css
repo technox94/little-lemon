@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    font-family: "Markazi Text", "Karla", serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* nav */
+.navbar {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navbar li:hover {
+    background-color: gray;
+}
+
+/* Header */
+header {
+    display: flex;
+    background-color: #495e57;
+    padding: 0 15%;
+    height: 400px;
+  }
+
+  .left-side,
+  .right-side {
+    width: 50%;
+  }
+
+  .left-side {
+    color: white;
+  }
+
+  header h1 {
+    margin-top: 2rem;
+    color: #f4ce14;
+    line-height: 60px;
+  }
+
+  header p {
+    margin: 2rem 0;
+    max-width: 400px;
+  }
+
+  header img {
+    transform: translateY(10%);
+    float: right;
+    border-radius: 1.5rem;
+    width: 400px;
+    height: 400px;
+    aspect-ratio: 5 / 6;
+    object-fit: cover;
+  }
+  /* Headers and buttons */
+  h1 {
+    font-family: "Markazi Text", serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #f4ce14;
+  }
+
+  h2 {
+    font-family: "Markazi Text", serif;
+    font-size: 30px;
+    color: #fff;
+    margin-top: -1.5em;
+  }
+
+  h3 {
+    font-family: "Markazi Text", serif;
+    font-size: 40px;
+    color: #000;
+    margin: 1em;
+    margin-right: 1em;
+  }
+
+  h4 {
+    font-family: "Markazi Text", serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+  }
+  h5 {
+    font-family: "Markazi Text", serif;
+    font-size: 30px;
+    color: #000;
+    margin-top: -2.5em;
+  }
+
+  .button {
+    background-color: #f4ce14;
+    color: #000;
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    width: 12em;
+    height: 3em;
+    margin: 1em;
+    border-radius: 2em;
+    border: none;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  #button:hover {
+    cursor: pointer;
+  }
+
+  /* Tesitmonials */
+  .testimonials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: #D9D9D9;
+    text-align: center;
+    padding-top: 1em;
+  }
+
+  .testimonial-header {
+    font-family: "Markazi Text", serif;
+    font-size: 60px;
+    font-weight: 700;
+    width: 100%;
+    color: #000;
+  }
+
+  .review-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+  }
+  .review {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    margin: 2em;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .review p {
+    font-family: "Karla", sans-serif;
+  }
+
+  .review h2 {
+    font-family: "Markazi Text", serif;
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+    margin: 0.1em;
+  }
+
+  /* About */
+  .about {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 3em 0;
+    background-color: #f4ce14;
+  }
+  .about-content {
+    width: 40%;
+    margin-left: 7em;
+    margin-right: 5em;
+  }
+  #chefs {
+    width: 55%;
+    height: 40%;
+    margin-top: 1em;
+    margin-left: 10em;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  #chefb {
+    width: 40%;
+    height: 40%;
+    margin-top: -10em;
+    margin-left: 2em;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .about-content p {
+    font-family: "Karla", sans-serif;
+    font-size: 18px;
+    color: #000;
+  }
+
+  .owners {
+    width: 60%;
+    height: 60%;
+  }
+
+
+
+  /* footer */
+
+  .footer-logo {
+    border-radius: 10px;
+    width: 100px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 15%;
+    margin-top: auto;
+    background-color: #495e57;
+  }
+
+  footer ul,
+  footer nav {
+    flex-direction: column;
+    gap: 0;
+    justify-content: flex-start;
+    padding: 0%;
+    color: #fff;
+  }
+
+  footer ul {
+    list-style: none;
+  }
+
+
+
+
+
+

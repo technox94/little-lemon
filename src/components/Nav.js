@@ -1,9 +1,10 @@
-import React from 'react'
-
+import React from 'react';
+import Logo from '../assets/Logo.svg';
 
 
 export default function Nav() {
-    return <nav className="nav">
+    return <nav className="navbar">
+        <div className='Logo'><img src={Logo} alt='little lemon'/></div>
         <ul>
             <li>
                 <a href='/Home'>Home</a>
