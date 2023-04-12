@@ -1,24 +1,32 @@
-import { BrowserRouter as Router } from 'react-router-dom';
 import React from 'react'
-import Nav from './components/Nav'
-import Header from './components/Header';
-import Main from './components/Main';
-import Testimonials from './components/Testimonials';
-import About from './components/About';
+import Nav from './components/Nav';
 import Footer from './components/Footer';
+import Home from './Pages/Home';
+import Reservations from './Pages/Reservations';
+import ConfirmedBooking from './Pages/ConfirmedBooking';
+import {Route, Routes} from "react-router-dom";
+
+
+
 
 
 function App() {
   return (
-    <Router>
+    <>
     <Nav />
-    <Header />
-    <Main />
-    <Testimonials />
-    <About />
+    <Routes>
+      <Route path = "/" element = {<Home />}/>
+      <Route path = "/reservations" element = {<Reservations />}/>
+      <Route path="/confirmed" element= {<ConfirmedBooking />} />
+    </Routes>
     <Footer />
-    </Router>
-  )
+  </>
+);
 }
 
 export default App
+
+
+
+
+

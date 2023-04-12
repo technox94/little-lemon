@@ -1,32 +1,40 @@
 import React from 'react';
 import Logo from '../assets/Logo.svg';
+import { Link } from 'react-router-dom';
 
 
-export default function Nav() {
-    return <nav className="navbar">
-        <div className='Logo'><img src={Logo} alt='little lemon'/></div>
+function Nav() {
+    return (
+      <nav className='navbar'>
+        <Link to="/">
+          <img src={Logo} alt="Little Lemon Logo" className='Logo' />
+        </Link>
         <ul>
-            <li>
-                <a href='/Home'>Home</a>
-            </li>
-            <li>
-                <a href='About'>About</a>
-            </li>
-            <li>
-                <a href='Menu'>Menu</a>
-            </li>
-            <li>
-                <a href='Reservation'>Reservation</a>
-            </li>
-            <li>
-                <a href='Order Online'>Order Online</a>
-            </li>
-            <li>
-                <a href='Login'>Login</a>
-            </li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <Link to="/booking">Reservations</Link>
+          </li>
+          <li>
+            <a href="#order-online">Order Online</a>
+          </li>
+          <li>
+            <a href="#login">Login</a>
+          </li>
         </ul>
-    </nav>
-}
+      </nav>
+    );
+  }
+
+  export default Nav;
+
 
 
 

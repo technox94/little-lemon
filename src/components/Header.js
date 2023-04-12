@@ -12,7 +12,7 @@ const Header = () => {
           We are a family owned Mediterranean restaurant, focused on traditional
           recipes served with a modern twist.
         </p>
-        <button>
+        <button className="bttn">
           <Link to="/booking">Reserve a table</Link>
         </button>
       </div>

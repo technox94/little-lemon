@@ -11,12 +11,12 @@ function Testimonials() {
         <div className="review-container">
           <div className="review">
             <TbStarsFilled />
-            <h2>Milo E.</h2>
+            <h2>Dom B.</h2>
             <p>"Really enjoyed the food."</p>
           </div>
           <div className="review">
             <TbStarsFilled />
-            <h2>Carter M.</h2>
+            <h2>Carter J.</h2>
             <p>"The greek salad was excellent!"</p>
           </div>
 
@@ -28,7 +28,7 @@ function Testimonials() {
 
           <div className="review">
             <TbStarsFilled />
-            <h2>Cameron J.</h2>
+            <h2>Cameron M.</h2>
             <p>"Awesome place peaceful atmosphere with delicious food"</p>
           </div>
         </div>
