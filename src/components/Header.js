@@ -17,10 +17,10 @@ const Header = () => {
         </button>
       </div>
       <div className="right-side">
-        <img
+        <img className="headerimg"
           src={food}
           alt="our cook holding a tablet with delicious baguettes"
-        width='500' height='600'/>
+        width='400' height='400'/>
       </div>
     </header>
   );
