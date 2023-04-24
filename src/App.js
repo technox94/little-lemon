@@ -12,8 +12,8 @@ import {Route, Routes} from "react-router-dom";
       <Nav />
       <Routes>
         <Route path="/" element = {<Home />}/>
-        <Route path="/booking" element={<Booking />}></Route>
-        <Route path="/confirmed" element={<ConfirmedBooking />}></Route>
+        <Route path="/booking" element={<Booking />}></Route>
+        <Route path="/confirmed" element={<ConfirmedBooking />}></Route>
       </Routes>
       <Footer />
       </>
